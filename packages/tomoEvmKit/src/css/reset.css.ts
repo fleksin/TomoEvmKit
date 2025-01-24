@@ -1,4 +1,4 @@
-import { style, globalFontFace } from '@vanilla-extract/css';
+import { style, globalFontFace, globalStyle } from '@vanilla-extract/css';
 
 export const base = style({
   border: 0,

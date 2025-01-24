@@ -6,6 +6,13 @@
       {
         "select-name": "off"
       }
-    ]
+    ],
+    "axe/aria": [
+      "default",
+      {
+        "aria-roles": "off"
+      }
+    ],
+    "disown-opener": "off"
   }
 }
