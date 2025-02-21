@@ -96,7 +96,7 @@ function RainbowKitApp({
 
   const appContextProps: AppContextProps = { authEnabled };
 
-  const [themeType, setThemeType] = useState<'light' | 'dark'>('dark');
+  const [themeType, setThemeType] = useState<'light' | 'dark'>('light');
 
   useEffect(() => {
     (window as any).toggleTheme = () => {
