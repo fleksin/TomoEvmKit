@@ -19,6 +19,15 @@ module.exports = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      {
+        source: '/', // 外部重定向
+        destination: 'https://tomo-wallet-784.pages.dev', // 外部 URL
+        permanent: true, 
+      },
+    ];
+  },
   // i18n: {
   //   defaultLocale: 'en-US',
   //   locales: [
